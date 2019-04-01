@@ -1,0 +1,140 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[a4paper]{twentysecondcv} % a4paper for A4
+\usepackage{eurosym, hyperref}
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+\profilepic{portrait.jpg} % Profile picture
+\cvname{Dr. Marc Lange} % Your name
+\cvjobtitle{Team Lead, Data Science, Business Intelligence} % Job title/career
+\cvdate{19 November 1985} % Date of birth
+\cvaddress{Hamburg, Germany} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{+49 171 110 39 21} % Phone number
+\cvsite{https://github.com/Vassago1911} % Personal website
+\cvmail{marc@lange-iz.de} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+%----------------------------------------------------------------------------------------
+%	 ABOUT ME
+%----------------------------------------------------------------------------------------
+\aboutme{ versatile \newline analytical \newline coder \newline data scientist \newline
+	 business experience \newline leadership \newline driven \newline compassionate
+} 
+% To have no About Me section, just remove all the text and leave \aboutme{}
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+\skills{{git, AWS, Redshift/3},{Linux CLI, ssh, bash/4},
+		{Mobile Marketing/4},
+		{SQL, Elastic, Python/5},{Teamplayer/5},{Tracking/5},
+		{Data Science/5},{Abstract Mathematics/6}}
+		
+
+%----------------------------------------------------------------------------------------
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 INTERESTS
+%----------------------------------------------------------------------------------------
+
+%#\section{Interests}The heroine and the dreamer of Wonderland; Alice is the principal character.
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{twenty} % Environment for a list with descriptions	
+	\twentyitem{2011-2015}{Doktor (Ph.D.) ``magna cum laude''}{Hamburg}{Majoring in Mathematics, Minor Physics}
+	\twentyitem{2005-2011}{Diplom ``sehr gut''}{Hamburg}{Majoring in Mathematics, Minor Computer Science}
+	\twentyitem{\phantom{1985}-2005}{Abitur}{Schleswig-Holstein}{Specialized in mathematics and chemistry.}	
+
+	\twentyitem{}{Languages:}{}{German (native) \\English (fluent)}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+\section{Theses}
+
+\begin{twentyshort} % Environment for a short list with no descriptions
+	\twentyitemshort{2015 PhD}{Multiplicative structures and involutions on algebraic $K$-theory}	
+	\twentyitemshort{2011 Diplom}{Examples of Involutions on Algebraic
+	$K$-Theory \phantom{ttttttttttttttttttttttt} of Bimonoidal Categories}	
+\end{twentyshort}
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{2018-2019}{Tech Lead, BI / Data Science}{AppLike GmbH, Hamburg}
+	{ 
+    \begin{itemize}
+    \item doubled the margin share of revenue by mathematical optimisation of our bids
+    \item educated one working student in tracking, reporting and modelling (Python, SQL, Elastic, Machine Learning)
+    \item define half year goals for Team BI
+    \item presented on our sales event for our Top10 partners 
+    \item joined career fairs to approach business and tech applicants
+    \item attended a Santander Workshop with the Sales-Team
+    \item filled in as Product Owner for a backend-team in March 2018
+
+    \item advising a master thesis in AppLike to synthetically generate fraudulent
+    behaviour, so we can find new security holes - will finish in July 
+    \end{itemize}
+    }
+	\twentyitem{2016-2017}{Business Intelligence (BI) Analyst}{AppLike GmbH, Hamburg}
+   	{
+    \begin{itemize}
+    \item center between tech and business: tracking and reporting 
+    \item communicating with external partners for integrations - e.g. Appsflyer, Singular, King, Playrix, etc.
+    \item occasionally explaining new tech features to business
+    \item push a business request to the backend informally when efficient and needed
+    \end{itemize}
+    }
+	\twentyitem{2007-2015}{Various Tutoring jobs}{University of Hamburg}
+	{
+    \begin{itemize}
+    \item instructed classes in Linear Algebra, Set Theory, Mathematics for Physicist
+    \end{itemize}
+    }
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 OTHER INFORMATION
+%----------------------------------------------------------------------------------------
+
+\section{Other information}
+As a mathematician and a general tech enthusiast I am not fixed to specific areas of application.
+Currently my business expertise stems from a well-scaling business model in mobile marketing for
+the gaming sector, but I can see myself in contexts which are more scientific, more compassionate,
+or also more classic than this digital sector. 
+
+I generally make it a point to look for a diverse and kind environment of colleagues and 
+contribute to that myself. I bring in some diversity expertise from contributing in university
+to the ``AG Queer Studies''. At the yearly Chaos Communication Congress I keep 
+myself informed and inspired on current scientific developments as well as the ethics of tech. 
+Finally I usually try to code one or two new papers 
+(usually from arXiv, e.g. \href{https://arxiv.org/abs/1901.02878v1}{https://arxiv.org/abs/1901.02878v1}) on machine 
+learning in my spare time, so I will tell you when the most promising AI-development comes.
+
+Hobbies: Gaming (Pen and Paper (DnD), PC (Starcraft, Mass Effect)), 
+Sports (Yoga, Gym, BJJ (retired)), US-Series to keep my English current
+
+Salary expectation: 80.000\EUR+
+\end{document} 
