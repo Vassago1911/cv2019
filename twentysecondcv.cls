@@ -26,11 +26,11 @@
 %	 COLOURS
 %----------------------------------------------------------------------------------------
 
-\definecolor{white}{RGB}{255,255,255}
-\definecolor{gray}{HTML}{4D4D4D}
-\definecolor{sidecolor}{HTML}{E7E7E7}
-\definecolor{mainblue}{HTML}{0E5484}
-\definecolor{maingray}{HTML}{B9B9B9}
+\definecolor{white}{RGB}{225,255,225}
+\definecolor{gray}{HTML}{004000}
+\definecolor{sidecolor}{HTML}{A0B0A0}
+\definecolor{mainblue}{HTML}{114033}
+\definecolor{maingray}{HTML}{CC006F}
 
 %----------------------------------------------------------------------------------------
 %	 MISC CONFIGURATIONS
